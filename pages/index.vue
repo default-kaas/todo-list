@@ -10,41 +10,5 @@
 </template>
 
 <script setup lang="ts">
-const checkLists = {
-  checkLists: [
-    {
-      id: 1,
-      name: 'test1',
-      items: [{
-        id: 1,
-        checked: false,
-        text: '',
-        screenshotIds: [],
-        links: ''
-      }]
-    },
-    {
-      id: 2,
-      name: 'test2',
-      items: [{
-        id: 1,
-        checked: false,
-        text: '',
-        screenshotIds: [],
-        links: ''
-      }]
-    },
-    {
-      id: 3,
-      name: 'test3',
-      items: [{
-        id: 1,
-        checked: false,
-        text: '',
-        screenshotIds: [],
-        links: ''
-      }]
-    },
-  ]
-}
+import checkLists from '@/assets/json/checkListList.json'
 </script>
