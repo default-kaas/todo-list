@@ -2,7 +2,8 @@
   "checkLists":[
     {
       "id":1,
-      "name":"test1",
+      "name":"Website to do list",
+      "collaborators":["jim"],
       "items":[
         {
           "id":1,
@@ -15,7 +16,8 @@
     },
     {
       "id":2,
-      "name":"test2",
+      "name":"Boodschappen",
+      "collaborators":[],
       "items":[
         {
           "id":1,
@@ -28,7 +30,8 @@
     },
     {
       "id":3,
-      "name":"test3",
+      "name":"Hamburgers",
+      "collaborators":["ruben w","ruben r","luigi"],
       "items":[
         {
           "id":1,
