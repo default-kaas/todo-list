@@ -7,9 +7,14 @@
     <template v-for="checkList in checkLists.checkLists" :key="checkList.id">
       <CheckListAsItem :id="checkList.id" :title="checkList.name" :collaborators="checkList.collaborators" />
     </template>
+    <p>{{ hello?.greeting }}</p>
   </div>
 </template>
 
 <script setup lang="ts">
 import checkLists from '@/assets/json/checkListList.json'
+const { $client } = useNuxtApp()
+
+const { data: hello } = await $client.hello.useQuery({ text: 'client' })
+
 </script>
